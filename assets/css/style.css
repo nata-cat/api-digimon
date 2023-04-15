@@ -1,3 +1,4 @@
+
 /*Cambio de estilo por etiqueta*/
 body {
     background: radial-gradient(
@@ -8,44 +9,28 @@ body {
 
   width: 100%;
   height: 1000px;
+  font-family: 'Roboto Mono', monospace;
 }
 
-header{
-    padding-top: 20%;
-}
 
-section{
-
-    margin: 10%;
-    border: #1d3679 solid 1px;
-    background-color: #ffffff ;
-    border-radius: 2%;
-    
-
+h2{
+    font-weight: 700;
+    color: aliceblue;
 }
 
 
 /*Cambio de estilo por ID*/
 
 #imagenDigimon{
-    width: 80%;
+    width: 66%;
 }
 
 #nombreDigimon{
-    color:#ffffff;
+
+    font-size: 2em;
+    color:#1d3679;
 }
 
-#cardNivel{
-    width:100%;
-    background-color:#1d3679;
-    border: #1d3679 solid 2px;
-    color:white;
-    display: flex;
-    align-items: center;
-    padding: 5% 0 5% 0;
-    border-radius: 0;
-    
-}
 
 #parrafoNivel{
     font-size: 26px;
@@ -63,3 +48,43 @@ section{
     color:white;
 }
 
+#logo{
+    width: 12%;
+}
+
+#barraNavegacion{
+    background-color: #ffffff10;
+}
+
+#fotoFooter{
+    background-image: url(../img/foto-footer.jpg);
+    background-size: cover;
+    background-attachment:inherit;
+    background-position: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+    margin-top: 3em;
+}
+
+@media only screen and (max-width: 768px) {
+    #logo {
+      width: 23%;
+    }
+
+    #imagenDigimon{
+        width: 100%;
+        padding-left: 15%;
+    }
+
+    #nombreDigimon{
+
+        font-size: 1.6em;
+        color:#1d3679;
+    }
+
+    #parrafoNivel{
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+  }

@@ -4,7 +4,7 @@ function pruebaDigimon(){
 
     let consultarDigimon = document.getElementById('nombreProporcionado').value;
 
-    //configuramos el endpoint para consultar
+    //configuramos el endpoint para que reciba un nombre
     let endpoint = 'https://digimon-api.vercel.app/api/digimon/name/' +consultarDigimon;
 
     //consumo el endpoint con fetch
