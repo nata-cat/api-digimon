@@ -23,7 +23,7 @@ function desplegarLista(){
     for(let temp of datos)
         lista.innerHTML+=
    `
-        <option onclick="pruebaDigimon('${temp.name}')" value="">${temp.name}</option>
+        <option onmouseover="pruebaDigimon('${temp.name}')" value="">${temp.name}</option>
    `
     
    }
